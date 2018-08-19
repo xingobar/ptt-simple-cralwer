@@ -1,0 +1,27 @@
+{
+  "name": "ptt",
+  "version": "1.0.0",
+  "description": "cralwer ptt page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node",
+    "dev": "babel-node index.js"
+  },
+  "author": "GaryNg",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-env": "^2.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "nodemon": "^1.18.3",
+    "puppeteer": "^1.7.0",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.2"
+  }
+}
